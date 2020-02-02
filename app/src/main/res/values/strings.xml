@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="txt_notitle_error"><![CDATA[<No Title>]]></string>
+    <string name="txt_content_decription">Poster</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_details_title">TITLE</string>
+    <string name="txt_details_large_poster">LARGE POSTER</string>
+    <string name="txt_details_overview">TextView</string>
+    <string name="something_went_wrong">Something went wrong... :(</string>
+</resources>

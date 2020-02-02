@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dm_margin">20dp</dimen>
+    <dimen name="dm_text_title">18sp</dimen>
+    <dimen name="dm_txt_overview">22sp</dimen>
+    <dimen name="txt_title_details_margin_top">300dp</dimen>
+    <dimen name="rating_bar_details_margin_bottom">100dp</dimen>
+    <dimen name="txt_details_overview_width">370dp</dimen>
+    <dimen name="txt_details_overview_height">220dp</dimen>
+    <dimen name="txt_overview_width">370dp</dimen>
+    <dimen name="txt_overview_height">260dp</dimen>
+    <dimen name="txt_title_margin_top">270dp</dimen>
+</resources>
