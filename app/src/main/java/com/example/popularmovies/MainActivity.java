@@ -12,13 +12,11 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.popularmovies.model.MovieModel;
-import com.example.popularmovies.model.Results;
 import com.example.popularmovies.network.MyConstants;
 import com.example.popularmovies.network.RetrofitInstance;
 import com.example.popularmovies.recycler_view.MovieAdapter;
 import com.example.popularmovies.recycler_view.OnMovieClickListener;
 
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -35,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements OnMovieClickListe
     private TextView errorContainer;
     private RecyclerView recyclerView;
     private MovieAdapter movieAdapter;
-    private List<Results> myMovieList;
     private boolean shouldShowError = false;
 
     @Override
@@ -91,13 +88,4 @@ public class MainActivity extends AppCompatActivity implements OnMovieClickListe
         }
     }
 }
-   /* public List<Results> createResultsList(List<Results> unformattedResults, List<Results> downloadedResults) {
-
-        List<Results> returnedList = unformattedResults;
-
-        for (int i = unformattedResults.size()-1; i < (unformattedResults.size() + downloadedResults.size()-2); i++) {
-            returnedList.add(i, downloadedResults.get(i));
-        }
-        return returnedList;
-    }*/
 

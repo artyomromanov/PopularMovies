@@ -9,5 +9,6 @@ public class MyConstants {
     public static final String BASE_IMAGE_URL = "https://image.tmdb.org/t/p/";
     public static final String BASE_FILE_SIZE_SMALL = "w185";
     public static final String BASE_FILE_SIZE_LARGE = "w500";
+    public static final String RATING_COLOUR = "#FAB429";
 
 }

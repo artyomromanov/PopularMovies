@@ -1,5 +1,8 @@
 package com.example.popularmovies.recycler_view;
 
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
@@ -14,6 +17,8 @@ import com.example.popularmovies.model.MovieModel;
 import com.example.popularmovies.network.MyConstants;
 import com.example.popularmovies.R;
 import com.squareup.picasso.Picasso;
+
+import static com.example.popularmovies.network.MyConstants.RATING_COLOUR;
 
 public class MovieHolder extends RecyclerView.ViewHolder {
 
@@ -71,6 +76,9 @@ public class MovieHolder extends RecyclerView.ViewHolder {
 
         rbRating.setRating(rating);
         rbRating.setIsIndicator(true);
+
+        Drawable drawable = rbRating.getProgressDrawable();
+        drawable.setColorFilter(Color.parseColor(RATING_COLOUR), PorterDuff.Mode.SRC_ATOP);
 
         return (this);
     }
